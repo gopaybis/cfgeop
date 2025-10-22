@@ -7,20 +7,20 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "stbwrt.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "help.viu.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.stbwrt.web.id", custom_domain = true },
-  { pattern = "cache.netflix.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "graph.facebook.com.stbwrt.web.id", custom_domain = true },
-  { pattern = "dogseechew.com.stbwrt.web.id", custom_domain = true },
+  { pattern = "mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "ava.game.naver.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "graph.instagram.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "help.viu.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "support.zoom.us.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "cache.netflix.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "graph.facebook.com.mr44j.grentongers.dpdns.org", custom_domain = true },
+  { pattern = "dogseechew.com.mr44j.grentongers.dpdns.org", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "1e18363cb4474b0abaa0c7e4a8bea159"
+id = "2197f26993c3401ab552eae1dbc7b07c"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
